@@ -1,7 +1,7 @@
 {
-  "name": "ionic_learning",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
+    "name": "ionic_learning",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "angular"
 }
