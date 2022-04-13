@@ -1,6 +1,6 @@
-import { NgModule } from "@angular/core"
-import { RouterModule, Routes } from "@angular/router"
-import { NavbarComponent } from "./navbar.component"
+import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router";
+import { NavbarComponent } from "./navbar.component";
 
 const routes: Routes = [
     {
@@ -31,7 +31,7 @@ const routes: Routes = [
             },
         ],
     },
-]
+];
 
 @NgModule({
     imports: [RouterModule.forChild(routes)],
