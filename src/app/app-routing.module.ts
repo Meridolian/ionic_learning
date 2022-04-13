@@ -1,15 +1,12 @@
-import { NgModule } from '@angular/core';
-import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
+import { NgModule } from "@angular/core"
+import { PreloadAllModules, RouterModule, Routes } from "@angular/router"
 
 const routes: Routes = [
     {
-        path: '',
-        component: AppComponent,
-        //redirectTo: 'home',
-        //pathMatch: 'full',
+        path: "",
+        loadChildren: () => import("src/app/components/navbar/navbar.module").then((m) => m.NavbarModule),
     },
-];
+]
 
 @NgModule({
     imports: [
